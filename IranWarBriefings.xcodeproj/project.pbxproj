@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0078c86f87aa4caa91db2c26 /* BriefingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078c86f87aa4caa91db2c25 /* BriefingDetailView.swift */; };
+		060bbd476b6c4efb94ea54c1 /* Briefing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060bbd476b6c4efb94ea54c0 /* Briefing.swift */; };
+		142759c4382245588a37f638 /* BriefingsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142759c4382245588a37f637 /* BriefingsListViewModel.swift */; };
+		305c471d9e204cf1a12f15d3 /* BriefingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305c471d9e204cf1a12f15d2 /* BriefingsListView.swift */; };
+		3680e56c46fa49a29f5fc603 /* NewsFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680e56c46fa49a29f5fc602 /* NewsFetching.swift */; };
+		41de304dbd864653a17db3b4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41de304dbd864653a17db3b3 /* Assets.xcassets */; };
+		960a0f7c93454297bd4c395e /* IranWarBriefingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960a0f7c93454297bd4c395d /* IranWarBriefingsApp.swift */; };
+		b1c2d3e4f5a6478989012aab /* RSSFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = b1c2d3e4f5a6478989012aaa /* RSSFeedParser.swift */; };
+		c2d3e4f5a6b7480909123bbc /* BBCMiddleEastRSSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = c2d3e4f5a6b7480909123bbb /* BBCMiddleEastRSSService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0078c86f87aa4caa91db2c25 /* BriefingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingDetailView.swift; sourceTree = "<group>"; };
+		060bbd476b6c4efb94ea54c0 /* Briefing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Briefing.swift; sourceTree = "<group>"; };
+		142759c4382245588a37f637 /* BriefingsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingsListViewModel.swift; sourceTree = "<group>"; };
+		305c471d9e204cf1a12f15d2 /* BriefingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingsListView.swift; sourceTree = "<group>"; };
+		3680e56c46fa49a29f5fc602 /* NewsFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFetching.swift; sourceTree = "<group>"; };
+		41de304dbd864653a17db3b3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42e3560b9fd44a55a3dbbd52 /* IranWarBriefings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IranWarBriefings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960a0f7c93454297bd4c395d /* IranWarBriefingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IranWarBriefingsApp.swift; sourceTree = "<group>"; };
+		b1c2d3e4f5a6478989012aaa /* RSSFeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedParser.swift; sourceTree = "<group>"; };
+		c2d3e4f5a6b7480909123bbb /* BBCMiddleEastRSSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCMiddleEastRSSService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6fed50311aea43e98bcceee1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095b67a0372e4308acbc0267 = {
+			isa = PBXGroup;
+			children = (
+				fe13318a9fbc4ca9bdef97e7 /* IranWarBriefings */,
+				f08c5f8816ce471f98b643a3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2e088f952d614d1fb50ed415 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				060bbd476b6c4efb94ea54c0 /* Briefing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		c04ae9e9feb64d5380d6d27a /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3680e56c46fa49a29f5fc602 /* NewsFetching.swift */,
+				b1c2d3e4f5a6478989012aaa /* RSSFeedParser.swift */,
+				c2d3e4f5a6b7480909123bbb /* BBCMiddleEastRSSService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		f08c5f8816ce471f98b643a3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42e3560b9fd44a55a3dbbd52 /* IranWarBriefings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		fb071f87b38a47e7982b8e8f /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				142759c4382245588a37f637 /* BriefingsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		fe13318a9fbc4ca9bdef97e7 /* IranWarBriefings */ = {
+			isa = PBXGroup;
+			children = (
+				960a0f7c93454297bd4c395d /* IranWarBriefingsApp.swift */,
+				2e088f952d614d1fb50ed415 /* Models */,
+				c04ae9e9feb64d5380d6d27a /* Services */,
+				fb071f87b38a47e7982b8e8f /* ViewModels */,
+				2e088f952d614d1fb50ed416 /* Views */,
+				41de304dbd864653a17db3b3 /* Assets.xcassets */,
+			);
+			path = IranWarBriefings;
+			sourceTree = "<group>";
+		};
+		2e088f952d614d1fb50ed416 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				305c471d9e204cf1a12f15d2 /* BriefingsListView.swift */,
+				0078c86f87aa4caa91db2c25 /* BriefingDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3c7f6b4031794aebbe9e800a /* IranWarBriefings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4d34397dc37a46369cdae1c7 /* Build configuration list for PBXNativeTarget "IranWarBriefings" */;
+			buildPhases = (
+				4d34397dc37a46369cdae1c8 /* Sources */,
+				6fed50311aea43e98bcceee1 /* Frameworks */,
+				4d34397dc37a46369cdae1c9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IranWarBriefings;
+			productName = IranWarBriefings;
+			productReference = 42e3560b9fd44a55a3dbbd52 /* IranWarBriefings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4d34397dc37a46369cdae1c6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3c7f6b4031794aebbe9e800a = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4d34397dc37a46369cdae1ca /* Build configuration list for PBXProject "IranWarBriefings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095b67a0372e4308acbc0267;
+			productRefGroup = f08c5f8816ce471f98b643a3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3c7f6b4031794aebbe9e800a /* IranWarBriefings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4d34397dc37a46369cdae1c9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41de304dbd864653a17db3b4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4d34397dc37a46369cdae1c8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960a0f7c93454297bd4c395e /* IranWarBriefingsApp.swift in Sources */,
+				060bbd476b6c4efb94ea54c1 /* Briefing.swift in Sources */,
+				3680e56c46fa49a29f5fc603 /* NewsFetching.swift in Sources */,
+				b1c2d3e4f5a6478989012aab /* RSSFeedParser.swift in Sources */,
+				c2d3e4f5a6b7480909123bbc /* BBCMiddleEastRSSService.swift in Sources */,
+				142759c4382245588a37f638 /* BriefingsListViewModel.swift in Sources */,
+				305c471d9e204cf1a12f15d3 /* BriefingsListView.swift in Sources */,
+				0078c86f87aa4caa91db2c26 /* BriefingDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4d34397dc37a46369cdae1cb /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4d34397dc37a46369cdae1cc /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4d34397dc37a46369cdae1cd /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Iran briefings";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.example.IranWarBriefings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4d34397dc37a46369cdae1ce /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Iran briefings";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.example.IranWarBriefings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4d34397dc37a46369cdae1ca /* Build configuration list for PBXProject "IranWarBriefings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4d34397dc37a46369cdae1cb /* Debug */,
+				4d34397dc37a46369cdae1cc /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4d34397dc37a46369cdae1c7 /* Build configuration list for PBXNativeTarget "IranWarBriefings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4d34397dc37a46369cdae1cd /* Debug */,
+				4d34397dc37a46369cdae1ce /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4d34397dc37a46369cdae1c6 /* Project object */;
+}
