@@ -2,9 +2,14 @@ import SwiftUI
 
 struct BriefingsListView: View {
     @StateObject private var viewModel: BriefingsListViewModel
+    private let onLogout: (() -> Void)?
 
-    init(viewModel: @autoclosure @escaping () -> BriefingsListViewModel) {
+    init(
+        viewModel: @autoclosure @escaping () -> BriefingsListViewModel,
+        onLogout: (() -> Void)? = nil
+    ) {
         _viewModel = StateObject(wrappedValue: viewModel())
+        self.onLogout = onLogout
     }
 
     var body: some View {
@@ -47,6 +52,11 @@ struct BriefingsListView: View {
             }
             .navigationTitle("Middle East briefings")
             .toolbar {
+                if let onLogout {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button("Logout", action: onLogout)
+                    }
+                }
                 ToolbarItem(placement: .primaryAction) {
                     Button {
                         Task { await viewModel.load() }

@@ -13,9 +13,15 @@
 		305c471d9e204cf1a12f15d3 /* BriefingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305c471d9e204cf1a12f15d2 /* BriefingsListView.swift */; };
 		3680e56c46fa49a29f5fc603 /* NewsFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680e56c46fa49a29f5fc602 /* NewsFetching.swift */; };
 		41de304dbd864653a17db3b4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41de304dbd864653a17db3b3 /* Assets.xcassets */; };
+		4cb53d2804ff4c7581fca7df /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = aa19db1668ef43ce89bddf98 /* GoogleService-Info.plist */; };
+		5bc2ecf920ee4b09ad14838a /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2e8570092d954ae08c7e04e4 /* FirebaseAuth */; };
+		8f2e4ab8d9e14cf88ea29727 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 695fce17df8f4842bbc06617 /* FirebaseCore */; };
 		960a0f7c93454297bd4c395e /* IranWarBriefingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960a0f7c93454297bd4c395d /* IranWarBriefingsApp.swift */; };
+		9db23ed2bf8b4fb4926b18e6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6f065f339fd04f1ea2ddb0d6 /* AuthView.swift */; };
 		b1c2d3e4f5a6478989012aab /* RSSFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = b1c2d3e4f5a6478989012aaa /* RSSFeedParser.swift */; };
+		b2f4fdb0c2414db4acf8b579 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = cf644c2185214f90bf828cee /* AuthViewModel.swift */; };
 		c2d3e4f5a6b7480909123bbc /* BBCMiddleEastRSSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = c2d3e4f5a6b7480909123bbb /* BBCMiddleEastRSSService.swift */; };
+		f0f4c240f35144af8406e4ad /* SessionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ca53566d304bd9bcda2e6f /* SessionRootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +32,13 @@
 		3680e56c46fa49a29f5fc602 /* NewsFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFetching.swift; sourceTree = "<group>"; };
 		41de304dbd864653a17db3b3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42e3560b9fd44a55a3dbbd52 /* IranWarBriefings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IranWarBriefings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6f065f339fd04f1ea2ddb0d6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		72ca53566d304bd9bcda2e6f /* SessionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRootView.swift; sourceTree = "<group>"; };
 		960a0f7c93454297bd4c395d /* IranWarBriefingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IranWarBriefingsApp.swift; sourceTree = "<group>"; };
+		aa19db1668ef43ce89bddf98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		b1c2d3e4f5a6478989012aaa /* RSSFeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedParser.swift; sourceTree = "<group>"; };
 		c2d3e4f5a6b7480909123bbb /* BBCMiddleEastRSSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCMiddleEastRSSService.swift; sourceTree = "<group>"; };
+		cf644c2185214f90bf828cee /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5bc2ecf920ee4b09ad14838a /* FirebaseAuth in Frameworks */,
+				8f2e4ab8d9e14cf88ea29727 /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +91,7 @@
 		fb071f87b38a47e7982b8e8f /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				cf644c2185214f90bf828cee /* AuthViewModel.swift */,
 				142759c4382245588a37f637 /* BriefingsListViewModel.swift */,
 			);
 			path = ViewModels;
@@ -93,6 +106,7 @@
 				fb071f87b38a47e7982b8e8f /* ViewModels */,
 				2e088f952d614d1fb50ed416 /* Views */,
 				41de304dbd864653a17db3b3 /* Assets.xcassets */,
+				aa19db1668ef43ce89bddf98 /* GoogleService-Info.plist */,
 			);
 			path = IranWarBriefings;
 			sourceTree = "<group>";
@@ -100,6 +114,8 @@
 		2e088f952d614d1fb50ed416 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				72ca53566d304bd9bcda2e6f /* SessionRootView.swift */,
+				6f065f339fd04f1ea2ddb0d6 /* AuthView.swift */,
 				305c471d9e204cf1a12f15d2 /* BriefingsListView.swift */,
 				0078c86f87aa4caa91db2c25 /* BriefingDetailView.swift */,
 			);
@@ -122,6 +138,10 @@
 			dependencies = (
 			);
 			name = IranWarBriefings;
+			packageProductDependencies = (
+				2e8570092d954ae08c7e04e4 /* FirebaseAuth */,
+				695fce17df8f4842bbc06617 /* FirebaseCore */,
+			);
 			productName = IranWarBriefings;
 			productReference = 42e3560b9fd44a55a3dbbd52 /* IranWarBriefings.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 095b67a0372e4308acbc0267;
+			packageReferences = (
+				0f5fedce216f4d6ca7ca9267 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = f08c5f8816ce471f98b643a3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -164,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4cb53d2804ff4c7581fca7df /* GoogleService-Info.plist in Resources */,
 				41de304dbd864653a17db3b4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,13 +204,40 @@
 				3680e56c46fa49a29f5fc603 /* NewsFetching.swift in Sources */,
 				b1c2d3e4f5a6478989012aab /* RSSFeedParser.swift in Sources */,
 				c2d3e4f5a6b7480909123bbc /* BBCMiddleEastRSSService.swift in Sources */,
+				b2f4fdb0c2414db4acf8b579 /* AuthViewModel.swift in Sources */,
 				142759c4382245588a37f638 /* BriefingsListViewModel.swift in Sources */,
+				f0f4c240f35144af8406e4ad /* SessionRootView.swift in Sources */,
+				9db23ed2bf8b4fb4926b18e6 /* AuthView.swift in Sources */,
 				305c471d9e204cf1a12f15d3 /* BriefingsListView.swift in Sources */,
 				0078c86f87aa4caa91db2c26 /* BriefingDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0f5fedce216f4d6ca7ca9267 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2e8570092d954ae08c7e04e4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0f5fedce216f4d6ca7ca9267 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		695fce17df8f4842bbc06617 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0f5fedce216f4d6ca7ca9267 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4d34397dc37a46369cdae1cb /* Debug */ = {
@@ -209,7 +260,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -228,7 +278,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
